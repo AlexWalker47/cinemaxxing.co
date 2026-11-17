@@ -42,7 +42,7 @@ body {
 }
 /* The real analog film-grain from the original landing, as a fixed full-page overlay. */
 body::before { content: ""; position: fixed; inset: 0; z-index: 0; pointer-events: none;
-  background-image: url("https://alexwalker.co/img/cinemaxxing-grain.png");
+  background-image: url("img/cinemaxxing-grain.png");
   background-size: 240px 240px; background-repeat: repeat; opacity: 0.22; }
 .titlebar, .sectionbar, .wrap, .sprockets, .foot { position: relative; z-index: 1; }
 h1, h2, h3 { font-family: "Sansita", Georgia, serif; line-height: 1.1; text-wrap: balance; margin: 0; }
@@ -50,7 +50,7 @@ a { color: inherit; }
 
 /* ── Sprockets (film perforation strips top & bottom) ─────────────────────────── */
 .sprockets { height: 22px; background-color: #060606;
-  background-image: url("https://alexwalker.co/img/cinemaxxing-perf-strip.png");
+  background-image: url("img/cinemaxxing-perf-strip.png");
   background-size: auto 22px; background-repeat: repeat-x; background-position: left center;
   filter: brightness(0.6) saturate(0.85); opacity: 0.9; position: relative; z-index: 5; }
 

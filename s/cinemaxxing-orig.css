@@ -40,7 +40,7 @@ img{max-width:100%;display:block;}
 /* ─────── Perforation strip: seamlessly-tileable cropped asset ─────── */
 .reel{
   width:100%;height:22px;
-  background-image:url("https://alexwalker.co/img/cinemaxxing-perf-strip.png");
+  background-image:url("img/cinemaxxing-perf-strip.png");
   background-size:auto 22px;background-repeat:repeat-x;background-position:left center;
   position:relative;z-index:5;
   /* Dim the strip: brings down both the navy AND the cream perforation
@@ -56,7 +56,7 @@ img{max-width:100%;display:block;}
    their own opaque colors. */
 .grain{
   position:absolute;inset:0;pointer-events:none;z-index:1;
-  background-image:url("https://alexwalker.co/img/cinemaxxing-grain.png");
+  background-image:url("img/cinemaxxing-grain.png");
   background-size:240px 240px;
   background-repeat:repeat;
   opacity:.22;
